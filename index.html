@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend 1</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+</head>
+<body>
+    <h1>Aula 24/09</h1>
+    <h3>Tag Link</h3>
+    <p>A tag &lta&gt faz referência a um link.</p>
+    <ul>
+        <li><p>Utilização: &lta href="https://url da página"&gt texto do link &lt/a&gt </p></li>
+        <li><a href="https://www.google.com" target="_blank">Link do Google abrindo em uma nova aba</a></li>
+        <li><a href="https://www.google.com" target="_self">Link do Google abrindo nessa mesma aba</a></li>
+        <li><a href="https://www.google.com" target="_top">Link do Google maximizando a janela</a></li>
+        <li><a href="fotos.html" target="_blank" title="gatinhoooooooooooooos">fotos do gatinho</a></li>
+    </ul>
+    <p>Podemos atribuir, dentro do href, uma propriedade "mailto:email@emailexemplo.com" e será enviado um email para o endereço referido.</p>
+    <button onclick="document.location='https://www.google.com'">Google</button>
+    <button onclick="alert('Olá mundo!')">Olá</button>
+    <h3>Tag Imagem</h3>
+    <p>a tag &ltimg&gt não necessita uma tag de fechamento. o atributo src define a fonte da imagem.</p>
+    <img src="./assets/cat-hands-up.gif" style="height: 100px;" alt="gatinho amassando pãozinho bem fofo" title="gatinho amassando pãozinho bem fofo">
+    <img src="./assets/besito-catlove.gif" style="height: 100px;" alt="gatinho dando besito" title="gatinho besito cat love">
+    <h3>Tag Table</h3>
+    <p>Sempre bom lembrar a respeito das tags de tabela:</p>
+    <ul>
+        <li>&lttable&gt: indica o início da tabela</li>
+        <li>&ltth&gt: table header</li>
+        <li>&lttr&gt: table row</li>
+        <li>&lttd&gt: table data</li>
+    </ul>
+    <table style="border: 1px solid;text-align: center;padding: 5px;">
+        <thead>
+            <tr>
+                <th>Cabeçalho 1</th>
+                <th>Cabeçalho 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>dado 1</td>
+                <td>dado 2</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>dado 3</td>
+                <td>dado 4</td>
+            </tr>
+        </tfoot>
+    </table>
+    <h3>Tag List</h3>
+    <ul>
+        <li>&ltul&gt: indica lista não ordenada</li>
+        <li>&ltol&gt: indica lista ordenada</li>
+        <li>&ltli&gt: item da lista (list item)</li>
+    </ul>
+    <ol>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+    </ol>
+
+</body>
+</html>
